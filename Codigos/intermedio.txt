@@ -1,0 +1,21 @@
+printf( "Suma  3  numeros  en  ciclo")
+int  nbase  =  0
+int  nsuma  =  0
+int  conta  =  1
+int  cf  =  3
+L1:
+if cf<=conta goto L2
+printf( "Ingrese  el  numero:  ")
+scan( nbase)
+(+, nsuma, nbase, t1)
+(=, t1,  , nsuma)
+(+, conta, 1, t2)
+(=, t2,  , conta)
+goto L1
+L2:
+printf( "El  resultado  es:  ")
+printf( nsuma)
+(*, nbase, nsuma, t3)
+(*, conta, cf, t4)
+(+, t3, t4, t5)
+(=, t5,  , nbase)

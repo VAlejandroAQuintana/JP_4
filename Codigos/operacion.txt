@@ -1,0 +1,24 @@
+main(){
+	printf("multiplicar");
+	int V = 0;
+	int nuno = 0;
+	int ndos = 0;
+
+	printf("Ingrese un numero: ");
+	scan(nuno);
+
+	printf("Ingrese otro numero: ");
+	scan(ndos);
+	V = nuno * ndos;
+
+	if(nuno == ndos){
+		printf("El primer numero ingresado es igual que el segundo");
+	}
+	
+	if(nuno != ndos){
+		printf("Son diferentes");
+	}
+
+	printf("El resultado es: ");
+	printf(V);
+}

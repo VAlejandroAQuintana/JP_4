@@ -1,0 +1,19 @@
+main(){
+	printf("Suma 3 numeros en ciclo");
+	int nbase = 0;
+	int nsuma = 0;
+	int conta = 1;
+	int cf = 3;
+	
+	while(conta <= cf){
+		printf("Ingrese el numero: ");
+		scan(nbase);
+		nsuma = nsuma + nbase;
+		conta = conta + 1;
+	}
+
+	printf("El resultado es: ");
+	printf(nsuma);
+
+	nbase = nbase * nsuma + conta * cf;
+}

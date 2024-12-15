@@ -1,0 +1,13 @@
+main(){
+	printf("Cuenta del cero al nueve");
+	printf(" ");
+	
+	int contador = 9;
+	int cf = 0;
+	
+	while(contador >= cf){
+		printf(contador);
+		printf(" ");
+		contador = contador - 1;
+	}
+}

@@ -1,0 +1,7 @@
+mensaje1 db 10,13,"Suma   3   numeros   en   ciclo" , "$"
+nbase dw 0
+nsuma dw 0
+conta dw 1
+cf dw 3
+mensaje2 db 10,13,"Ingrese   el   numero:   " , "$"
+mensaje3 db 10,13,"El   resultado   es:   " , "$"

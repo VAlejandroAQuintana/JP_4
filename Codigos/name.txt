@@ -1,0 +1,23 @@
+main(){
+	string Nombre;
+	string ApellidoM;
+	string ApellidoP;
+
+	printf("Ingresa tu nombre: ");
+	scan(Nombre);
+
+	printf("Ingresa tu apellido paterno: ");
+	scan(ApellidoP);
+
+	printf("Ingresa tu apellido materno: ");
+	scan(ApellidoM);
+
+	printf("Tu nombre completo es: ");
+	
+	
+	printf(Nombre);
+	
+	printf(ApellidoP);
+	
+	printf(ApellidoM);
+}
